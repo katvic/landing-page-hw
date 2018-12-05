@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body
+	{ 
+	background: #ffffff; 
+	color: #033048;  
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-weight: extrabold;
+    font-size: 24px;  
+    color: #f0efef;
+    	padding: 0px 150px 10px;
+	    margin: 0px 0px 0px;
+}
+h2 {	
+	font-weight: extrabold;
+    font-size: 24px;  
+    color: #f9e42e;
+    text-align: center;
+	padding: 0px 150px 10px;
+	margin: 0px 0px 0px;
+}
+h3	{
+	font-weight: semibold;
+    font-size: 24px;  
+    color: #f0efef;
+    text-decoration: none;
+	padding: 0px 150px 10px;
+	margin: 0px 0px 0px;
+}
+a:link, a:visited {
+    background-color: #033048;
+    color: white;
+    padding: 14px 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+
+}
+div.box {
+	width: 700px;
+    margin: 0px 0px 0px;
+    background-color: #033048;
+}
+div.box2 {
+	width: 700px;
+    margin: 0px 0px 0px;
+    background-color: #f0efef;
+}
+div.box3 {
+	width: 700px;
+    margin: 0px 0px 0px;
+    background-color: #f9e42e;
+}
+div.box4 {
+	width: 700px;
+    margin: 0px 0px 0px;
+    background-color: #606161;
+}
+li {
+	display: list-item;
+	list-style-type: circle;
+	text-align: -webkit-match-parent;
+	padding: 0px 150px 10px;
+	color: #033048;
+}
+ol { 
+    padding: 0px 20px 0px;
+   	color: #033048;
+}
+#main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+  border: 0px solid black;
+}
+
+.row {
+  width: 100%;
+  padding: 0px;
+  border: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.row:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.col {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+}
+.grid-item {
+  min-height: 150px;
+  background-color: #f0efef;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.col-1 {
+  width: 8.33%
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+
+}
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
